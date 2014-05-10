@@ -72,7 +72,7 @@ let php_show_semicolon_error=1
 let php_short_tags=1
 let php_folding=1
 let php_special_vars=1
-let php_var_selector_is_identifier = 1
+"let php_var_selector_is_identifier = 1
 
 autocmd BufNewFile,BufRead *.erb setlocal ft=eruby
 let html_no_rendering=1
