@@ -28,3 +28,4 @@ exec "Snippet for for ( $i=0; $i < count($".st.et."); $i++ )<CR>{ <CR>".st.et."<
 exec "Snippet while while ( ".st.et." )<CR>{<CR>".st.et."<CR>}<CR>".st.et
 exec "Snippet mysql_query $res = mysql_query(\"".st."condition".et."\"); <CR>while ($row = mysql_fetch_assoc($res)) {<CR>".st.et."<CR>}<CR>".st.et
 exec "Snippet P <?php ".st.et." ?>"
+exec "Snippet D var_dump(".st.et.");"
