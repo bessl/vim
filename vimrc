@@ -169,3 +169,4 @@ autocmd BufNewFile,BufRead *.html,*.htm  call s:SelectHTML()
 
 set statusline=[%l,%v]\ %m%F%r%h\ [%p%%]\ {b%n}\ %Y
 
+nnoremap <F6> :!clear;git diff %<CR>
