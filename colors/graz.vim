@@ -29,6 +29,8 @@ hi phpInclude ctermbg=Black ctermfg=Yellow guibg=#212121 guifg=White
 hi phpIdentifier ctermbg=Black ctermfg=White guibg=#212121 guifg=White 
 hi phpStringDouble ctermbg=Black ctermfg=Green guibg=#212121 guifg=White 
 hi phpStringSingle ctermbg=Black ctermfg=Green guibg=#212121 guifg=White 
+" Blade
+hi Blade ctermbg=Black ctermfg=Blue guibg=White guifg=Blue
 
 hi NonText ctermbg=Black guibg=#212121
 hi Todo ctermbg=Green ctermfg=White guibg=Green guifg=White
@@ -36,8 +38,8 @@ hi StatusLine cterm=NONE ctermfg=White ctermbg=DarkGreen guibg=DarkGreen guifg=W
 hi StatusLineNC guifg=Gray guifg=Gray
 hi VertSplit guifg=Gray guifg=Gray
 
-highlight Gruen ctermbg=Black ctermfg=Green guibg=#212121 guifg=Green
-highlight DjangoBloecke ctermbg=DarkGrey guibg=DarkGrey
+hi Gruen ctermbg=Black ctermfg=Green guibg=#212121 guifg=Green
+hi DjangoBloecke ctermbg=DarkGrey guibg=DarkGrey
 
 
 syntax enable
